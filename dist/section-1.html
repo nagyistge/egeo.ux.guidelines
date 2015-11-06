@@ -14,7 +14,7 @@
     <script src="public/html5shiv.js"></script>
     <![endif]-->
   </head>
-  <body id="kss-node">
+  <body id="kss-node" data-ng-app="myApp">
     <div class="kss-wrapper">
       <div class="kss-sidebar">
         <div class="kss-sidebar-inner">
@@ -26,10 +26,35 @@
           <nav class="kss-nav">
             <ul class="kss-menu" data-kss-ref="1">
               <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
-              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">My Section</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Design Process and Evaluation</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Optimizing the User Experience</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Accessibility</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Hardware and Software</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">The Home Page</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Page Layout</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Navigation</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Scrolling and Paging</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Headings, Titles, and Labels</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Links</span></a></li>
+              <li class="kss-menu-item"><a href="section-11.html"><span class="kss-ref">11</span><span class="kss-name">Text Appearance</span></a></li>
+              <li class="kss-menu-item"><a href="section-12.html"><span class="kss-ref">12</span><span class="kss-name">Lists</span></a></li>
+              <li class="kss-menu-item"><a href="section-13.html"><span class="kss-ref">13</span><span class="kss-name">Graphics and Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-14.html"><span class="kss-ref">14</span><span class="kss-name">Content Organization</span></a></li>
+              <li class="kss-menu-item"><a href="section-15.html"><span class="kss-ref">15</span><span class="kss-name">Search</span></a></li>
+              <li class="kss-menu-item"><a href="section-16.html"><span class="kss-ref">16</span><span class="kss-name">Screen - Based controls (Widgets)</span></a></li>
+              <li class="kss-menu-item"><a href="section-17.html"><span class="kss-ref">17</span><span class="kss-name">Usability testing</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-1.1"><span class="kss-ref">1.1</span><span class="kss-name">My Sub Section</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.1"><span class="kss-ref">1.1</span><span class="kss-name">Provide content that is engaging, relevant, and appropriate to the audience (5:5)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2"><span class="kss-ref">1.2</span><span class="kss-name">Establish user requirements (5:4)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.3"><span class="kss-ref">1.3</span><span class="kss-name">Ensure the Web site format meets user expectations, especially related to navigation, content, and organization (5:3)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.4"><span class="kss-ref">1.4</span><span class="kss-name">Involve users in establishing user requirements (5:3)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.5"><span class="kss-ref">1.5</span><span class="kss-name">Set and state goals (5:2)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.6"><span class="kss-ref">1.6</span><span class="kss-name">Focus on performance over appearance (4:3)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.7"><span class="kss-ref">1.7</span><span class="kss-name">Consider many user interface issues (4:3)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.8"><span class="kss-ref">1.8</span><span class="kss-name">Be easy to find in search engines (4:4)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.9"><span class="kss-ref">1.9</span><span class="kss-name">Set Usability Goals (3:3)</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.10"><span class="kss-ref">1.10</span><span class="kss-name">Use parallel design (2:4)</span></a></li>
             </ul>
           </nav>
         </div>
@@ -37,16 +62,124 @@
       <div class="kss-content">
         <article class="kss-article">
           <section id="section-1" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">1</span> My Section</h1>
+            <h1 class="kss-title"><span class="kss-ref">1</span> Design Process and Evaluation</h1>
             <div class="kss-description">
-              <p>Todo</p>
+              <p>There are several usability-related issues,methods, and procedures that require careful consideration when designing and developing Web sites. The most important of these are presented in this chapter, including ’up-front’ issues such as setting clear and concise goals for a Web site, determining a correct and exhaustive set of user requirements, ensuring that the Web site meets user’s expectations, setting usability goals, and providing useful content.</p>
+<p>To ensure the best possible outcome, designers should consider a full range of user-interface issues, and work to create a Web site that enables the best possible human performance. The current research suggests that the best way to begin the construction of a Web site is to have many different people propose design solutions (i.e., parallel design), and then to follow up using an iterative design approach. This requires conducting the appropriate usability tests and using the findings to make changes to the Web site.</p>
 
             </div>
           </section>
           <section id="section-1.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">1.1</span> My Sub Section</h1>
+            <h1 class="kss-title"><span class="kss-ref">1.1</span> Provide content that is engaging, relevant, and appropriate to the audience (5:5)</h1>
             <div class="kss-description">
-              <p>Todo</p>
+              <p><strong>Provide content that is engaging, relevant, and appropriate to the audience.</strong></p>
+<p>Content is the information provided on a Web site. Do not waste resources providing easy access and good usability to the wrong content. One study found that content is the most critical element of a Web site. Other studies have reported that content is more important than navigation, visual design, functionality, and interactivity.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="http://alistapart.com/article/content-modelling-a-master-skill">http://alistapart.com/article/content-modelling-a-master-skill</a></li>
+<li><a href="http://www.spiderscribe.net/">http://www.spiderscribe.net/</a></li>
+<li><a href="http://www.xmind.net/">http://www.xmind.net/</a></li>
+</ul>
+
+            </div>
+          </section>
+          <section id="section-1.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.2</span> Establish user requirements (5:4)</h1>
+            <div class="kss-description">
+              <p><strong>Use all available resources to better understand users&#39; requirements.</strong></p>
+<p>The greater the number of exchanges of information with potential users, the better the developers&#39; understanding of the users&#39; requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries.</p>
+<p>The information gathered from exchanges with users can be used to build &#39;use cases&#39;. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="http://www.nextbigwhat.com/startups-kill-that-elastic-user-before-it-kills-you-297/">http://www.nextbigwhat.com/startups-kill-that-elastic-user-before-it-kills-you-297/</a></li>
+<li><a href="http://www.nngroup.com/articles/persona/">http://www.nngroup.com/articles/persona/</a></li>
+<li><a href="http://xtensio.com/user-persona/">http://xtensio.com/user-persona/</a></li>
+</ul>
+
+            </div>
+          </section>
+          <section id="section-1.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.3</span> Ensure the Web site format meets user expectations, especially related to navigation, content, and organization (5:3)</h1>
+            <div class="kss-description">
+              <p><strong>Ensure that the website format meets user expectations, especially related to navigation, content, and organization.</strong></p>
+<p>Users define &#39;usability&#39; as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience.</p>
+<p>The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="http://blog.hubspot.com/marketing/content-mapping-template-personalize-marketing">http://blog.hubspot.com/marketing/content-mapping-template-personalize-marketing</a></li>
+<li><a href="http://es.slideshare.net/willsansbury/user-centered-design-1787667">http://es.slideshare.net/willsansbury/user-centered-design-1787667</a></li>
+</ul>
+
+            </div>
+          </section>
+          <section id="section-1.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.4</span> Involve users in establishing user requirements (5:3)</h1>
+            <div class="kss-description">
+              <p><strong>Involve users to improve the completeness and accuracy of user requirements.</strong></p>
+<p>One of the basic principles of user-centered design is the early and continual focus on users. For this reason, user involvement has become a widely accepted principle in the development of usable systems. Involving users has the most value when trying to improve the completeness and accuracy of user requirements. It is also useful in helping to avoid unused or little-used system features. Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="http://xtensio.com/user-persona/">http://xtensio.com/user-persona/</a></li>
+<li><a href="http://www.usability.gov/what-and-why/user-centered-design.html">http://www.usability.gov/what-and-why/user-centered-design.html</a></li>
+</ul>
+
+            </div>
+          </section>
+          <section id="section-1.5" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.5</span> Set and state goals (5:2)</h1>
+            <div class="kss-description">
+              <p><strong> Identify and clearly articulate the primary goals of the Web site before beginning the design process.</strong></p>
+<p>Before starting design work, identify the primary goals of the website (educate, inform, entertain, sell, etc.). Goals determine the audience, content, function, and the site&#39;s unique look and feel. It is also a good idea to communicate the goals to, and develop consensus for the site goals from management and those working on the website.</p>
+
+            </div>
+          </section>
+          <section id="section-1.6" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.6</span> Focus on performance over appearance (4:3)</h1>
+            <div class="kss-description">
+              <p><strong>If user performance is important, make decisions about content, format, interaction, and navigation before deciding on colors and decorative graphics.</strong></p>
+<p>Focus on achieving a high rate of user performance before dealing with aesthetics. Graphics issues tend to have little impact, if any, on users&#39; success rates or speed of performance.</p>
+
+            </div>
+          </section>
+          <section id="section-1.7" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.7</span> Consider many user interface issues (4:3)</h1>
+            <div class="kss-description">
+              <p><strong>Consider as many user interface issues as possible during the design process.</strong></p>
+<p>Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.</p>
+
+            </div>
+          </section>
+          <section id="section-1.8" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.8</span> Be easy to find in search engines (4:4)</h1>
+            <div class="kss-description">
+              <p><strong>In order to have a high probability of being accessed, ensure that a Web site is in the &#39;top 30&#39; references presented from a major search engine.</strong></p>
+<p>One study showed that users usually do not look at Web sites that are not in the &#39;top 30&#39;. Some of the features required to be in the &#39;top 30&#39; include appropriate meta-content and page titles, the number of links to the Web site, as well as updated registration with the major search engines.</p>
+
+            </div>
+          </section>
+          <section id="section-1.9" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.9</span> Set Usability Goals (3:3)</h1>
+            <div class="kss-description">
+              <p><strong>Set performance goals that include success rates and the time it takes users to find specific information, or preference goals that address satisfaction and acceptance by users.</strong></p>
+<p>Setting user performance and/or preference goals helps developers build better Web sites. It can also help make usability testing more effective. For example, some intranet Web sites have set the goal that information will be found eighty percent of the time and in less than one minute.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="http://deyalexander.com/resources/uxd/usability-goals.html">http://deyalexander.com/resources/uxd/usability-goals.html</a></li>
+<li><a href="http://www.usability.gov/how-to-and-tools/resources/templates/measurable-usability-goals-template.html">http://www.usability.gov/how-to-and-tools/resources/templates/measurable-usability-goals-template.html</a></li>
+</ul>
+
+            </div>
+          </section>
+          <section id="section-1.10" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.10</span> Use parallel design (2:4)</h1>
+            <div class="kss-description">
+              <p><strong>Have several developers independently propose designs and use the best elements from each design.</strong></p>
+<p>Do not rely on the ideas of a single designer. The best approach is parallel design, where designers independently evaluate the design issues and propose solutions. Attempt to saturate the design space before selecting the ideal solution. The more varied and independent the ideas that are considered, the better the final product will be.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="http://www.usabilitynet.org/tools/parallel.htm">http://www.usabilitynet.org/tools/parallel.htm</a></li>
+<li><a href="http://www.usability.gov/how-to-and-tools/methods/parallel-design.html">http://www.usability.gov/how-to-and-tools/methods/parallel-design.html</a></li>
+</ul>
 
             </div>
           </section>
@@ -62,5 +195,6 @@
     <script src="public/rainbow.min.js"></script>
     <!--<![endif]-->
     <script src="public/main.js"></script>
+    
   </body>
 </html>
