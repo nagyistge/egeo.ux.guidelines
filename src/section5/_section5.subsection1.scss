@@ -4,6 +4,9 @@
 //
 // Many users return to the homepage to begin a new task or to start a task over again. Create an easy and obvious way for users to quickly return to the homepage of the Web site from any point in the site.
 //
-// Many sites place the organization's logo on the top of every page and link it to the homepage. While many users expect that a logo will be clickable, many other users will not realize that it is a link to the homepage. Therefore, include a link labeled 'Home' near the top of the page to help those users.
+//If you include a "Home" link as part of your regular navigation bar, it shouldn't be clickable on the homepage. If you use components, create a special component that is used only on the homepage with an inactive Home link. If it's clickable, some users will inevitably click it and wonder if the page has indeed changed. Similarly, if you link your logo to the homepage from other pages on the site, the logo shouldn't be clickable from the homepage. All other pages on the site do need a link to the homepage.
+//
+// Sources:
+//* https://uxmag.com/articles/are-you-putting-the-home-button-to-good-use
 //
 // Styleguide 5.1

@@ -1,0 +1,7 @@
+// Make search case-neutral (4:2)
+//
+// **Treat user-entered upper- and lowercase letters as equivalent when entered as search terms.**
+//
+// For example, ’STRING,’ ’String,’ and ’string’ should be recognized and accepted equally by the Web site. When searching, users will generally be indifferent to any distinction between upper- and lowercase. The site should not compel a distinction that users do not care or know about, or that the user may find difficult to make. In situations when case actually is important, allow users to specify case as a selectable option in the string search.
+//
+// Styleguide 15.3

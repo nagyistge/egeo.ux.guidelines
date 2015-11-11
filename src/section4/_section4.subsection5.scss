@@ -1,7 +1,27 @@
 // Design for common screen resolutions (3:2)
 //
-// **Design for monitors with the screen resolution set at 1024x768 pixels.**
+// **Design for YOUR audience first, masses second.**
 //
-// Designers should attempt to accommodate ninety-five percent of all users. As of June 2006, 56% of users have their screen resolution set at 1024x768. By designing for 1024x768, designers will accommodate this most common resolution, as well as those at any higher resolution. Ensure that all testing of Web sites is done using the most common screen resolutions.
+// Google dictates the ebb and flow of online commerce and they’ve just dictated you need to design for a good experience across multiple devices IF you want to rank well in Google. (http://googlewebmastercentral.blogspot.com.es/2015/02/finding-more-mobile-friendly-search.html)
+//
+//At the moment – that essentially now means responsive website design.
+//
+//That could mean yes: design for a 1024×768 setting (for instance) BUT ALSO ensure it also looks good, or ‘transforms gracefully’, to the 800×600 setting, for example, or even smaller. 
+//
+//MOBILE IS ON THE RISE, so if developing a new website in 2015, you MUST think about how mobile friendly your website really is from the start.
+//
+//Your pages should work at any resolution. Jakob Nielsen is on record as recommending:
+//
+//* Optimise for 1024×768, which was the most widely used screen size for a long time. Of course, the general guideline is to optimise for your target audience’s most common resolution, so size will change in the future. It might even be a different size now, if, say, you’re designing an intranet for a company that gives all employees new big monitors.
+//
+//* Do not design solely for a specific monitor size unless you have been specifically commissioned to do so – because screen sizes vary among users. Window size variability is even greater, since users don’t always maximise their browsers (especially if they have large screens).
+//
+//* Use a liquid layout that stretches to the current user’s window size (that is, avoid frozen layouts that are always the same size).
+//
+// ![Screen resolutions](public/assets/images/4.5.png "Screen resolutions")
+//
+// Sources:
+//* http://www.w3schools.com/browsers/browsers_display.asp
+//* http://www.w3counter.com/globalstats.php
 //
 // Styleguide 4.5
